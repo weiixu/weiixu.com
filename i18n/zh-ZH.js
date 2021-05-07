@@ -327,6 +327,12 @@ module.exports = {
     }
   },
   footer: {
+    copyright: {
+      icp: '皖ICP备2021006231号',
+      desc: 'weiixu.com 版权所有',
+      startYear: '2021',
+      currentYear: '2021'
+    },
     links: {
       discover: {
         title: '发现',
