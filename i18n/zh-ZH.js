@@ -36,7 +36,7 @@ module.exports = {
         slug: 'blog'
       },
       {
-        name: '视频课程',
+        name: '视频',
         icon: 'video',
         href:
           'https://masteringnuxt.com/?utm_source=nuxt&utm_medium=link&utm_campaign=navbar_link'
@@ -48,9 +48,9 @@ module.exports = {
   },
   homepage: {
     meta: {
-      title: 'Nuxt.js - Vue.js 通用应用框架',
+      title: 'Weiixu - 通用多端应用框架',
       description:
-        'Nuxt.js 是一个基于 Vue.js 的轻量级应用框架，可用来创建服务端渲染 (SSR) 应用，也可充当静态站点引擎生成静态站点应用，具有优雅的代码结构分层和热加载等特性。'
+        'Weiixu是一个基于 Vue.js 的轻量级多端应用框架，可充当静态站点引擎生成静态站点应用，具有优雅的代码结构分层和热加载等特性。'
     },
     welcome: {
       title: '易于使用的 {br} {frameworkType} 框架',

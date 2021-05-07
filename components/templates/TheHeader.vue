@@ -12,9 +12,7 @@
         to="/"
         @click.native.right.stop.prevent="$router.push('/design')"
       >
-        <h1 class="m-0 h-0 w-0 overflow-hidden">
-NUXTJS
-</h1>
+        <h1 class="m-0 h-0 w-0 overflow-hidden">WeiiXu</h1>
         <NuxtLogo
           class="h-6 lg:h-8 text-light-onSurfacePrimary dark:text-dark-onSurfacePrimary transition-colors duration-300 ease-linear"
         />
@@ -64,7 +62,8 @@ NUXTJS
 </template>
 
 <script>
-import NuxtLogo from '~/assets/images/logo.svg?inline'
+// import NuxtLogo from '~/assets/images/logo.svg?inline'
+import NuxtLogo from '~/nuxt.svg?inline'
 
 export default {
   components: {

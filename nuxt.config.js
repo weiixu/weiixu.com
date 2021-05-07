@@ -147,6 +147,13 @@ export default {
     strategy: 'no_prefix',
     locales: [
       {
+        code: 'zh',
+        iso: 'zh-ZH',
+        file: 'zh-ZH.js',
+        name: '简体中文',
+        domain: 'https://zh.nuxtjs.org'
+      },
+      {
         code: 'en',
         iso: 'en-US',
         file: 'en-US.js',
@@ -160,14 +167,6 @@ export default {
         name: 'Français',
         domain: 'https://fr.nuxtjs.org'
       },
-      {
-        code: 'zh',
-        iso: 'zh-ZH',
-        file: 'zh-ZH.js',
-        name: '简体中文',
-        domain: 'https://zh.nuxtjs.org'
-      },
-
       {
         code: 'ja',
         iso: 'ja-JP',
